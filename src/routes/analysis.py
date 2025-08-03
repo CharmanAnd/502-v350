@@ -10,6 +10,7 @@ import logging
 import time
 import json
 from datetime import datetime
+from typing import Dict, List, Optional, Any
 from flask import Blueprint, request, jsonify, session
 from services.enhanced_analysis_engine import enhanced_analysis_engine
 from services.ultra_detailed_analysis_engine import ultra_detailed_analysis_engine
